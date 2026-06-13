@@ -498,3 +498,15 @@ filter:drop-shadow(
 margin-bottom:15px;
 color:#00d4ff;
 }
+
+/* ACHIEVEMENTS */
+
+.achievement-card{
+text-align:center;
+}
+
+.achievement-card h3{
+color:#00d4ff;
+margin-bottom:15px;
+font-size:1.4rem;
+}

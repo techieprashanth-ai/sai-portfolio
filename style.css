@@ -193,7 +193,7 @@ transform:scale(1.05);
 
 .whatsapp-btn{
 position:fixed;
-bottom:20px;
+bottom:170px;
 right:20px;
 width:60px;
 height:60px;
@@ -316,7 +316,7 @@ margin-top:0;
 
 .floating-contact{
 position:fixed;
-bottom:20px;
+bottom:90px;
 left:50%;
 transform:translateX(-50%);
 display:flex;

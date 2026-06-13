@@ -342,3 +342,16 @@ box-shadow:
 0 0 20px rgba(0,212,255,.4),
 0 0 60px rgba(0,212,255,.2);
 }
+
+.hero h1,
+section h2{
+background:linear-gradient(
+90deg,
+#ffffff,
+#7ddfff,
+#00d4ff
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}

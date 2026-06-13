@@ -235,12 +235,20 @@ font-weight:500;
 @media(max-width:768px){
 
 nav{
-padding:15px;
-justify-content:center;
+padding:12px 10px;
 }
 
 .nav-links{
-gap:12px;
+display:flex;
+justify-content:space-evenly;
+width:100%;
+gap:0;
+}
+
+.nav-links a{
+font-size:0.85rem;
+padding:5px;
+}
 }
 
 .logo{

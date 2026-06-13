@@ -438,3 +438,44 @@ font-size:1.5rem;
 .contact-card p{
 margin-bottom:25px;
 }
+
+/* PROJECT GALLERY */
+
+.project-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.project-card{
+background:rgba(255,255,255,.04);
+border:1px solid rgba(255,255,255,.08);
+border-radius:25px;
+overflow:hidden;
+backdrop-filter:blur(20px);
+transition:.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:
+0 0 25px rgba(0,212,255,.25),
+0 0 50px rgba(0,212,255,.12);
+}
+
+.project-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.project-content{
+padding:25px;
+}
+
+.project-content h3{
+margin-bottom:12px;
+color:#00d4ff;
+}

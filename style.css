@@ -360,3 +360,13 @@ border-radius:30px;
 background:rgba(255,255,255,0.02);
 border-radius:30px;
 }
+
+section h2{
+transition:.3s;
+}
+
+section h2:hover{
+text-shadow:
+0 0 10px #00d4ff,
+0 0 20px #00d4ff;
+}

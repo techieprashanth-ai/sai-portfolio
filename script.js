@@ -70,19 +70,19 @@ counterObserver.observe(counter);
 });
 
 
-// NAVBAR ACTIVE LINK
+// ACTIVE NAVIGATION
 
 const navLinks = document.querySelectorAll(".nav-links a");
 
-window.addEventListener("scroll",()=>{
+window.addEventListener("scroll", () => {
 
 let current = "";
 
-document.querySelectorAll("section").forEach(section=>{
+document.querySelectorAll("section").forEach((section) => {
 
 const sectionTop = section.offsetTop - 150;
 
-if(pageYOffset >= sectionTop){
+if(window.scrollY >= sectionTop){
 
 current = section.getAttribute("id");
 
@@ -90,7 +90,7 @@ current = section.getAttribute("id");
 
 });
 
-navLinks.forEach(link=>{
+navLinks.forEach((link) => {
 
 link.classList.remove("active");
 

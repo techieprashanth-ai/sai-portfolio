@@ -249,7 +249,23 @@ material
 scene.add(shape);
 
 camera.position.z = 5;
+let mouseX = 0;
+let mouseY = 0;
 
+document.addEventListener(
+"mousemove",
+(event)=>{
+
+mouseX =
+(event.clientX /
+window.innerWidth) * 2 - 1;
+
+mouseY =
+(event.clientY /
+window.innerHeight) * 2 - 1;
+
+}
+);
 function animate(){
 
 requestAnimationFrame(

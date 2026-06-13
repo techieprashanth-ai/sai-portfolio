@@ -324,7 +324,9 @@ font-size:1.05rem;
 
 .nav-links a.active{
 color:#00d4ff;
-text-shadow:0 0 10px #00d4ff;
+text-shadow:
+0 0 10px #00d4ff,
+0 0 20px rgba(0,212,255,.5);
 }
 
 .counter{
@@ -398,11 +400,4 @@ background:linear-gradient(90deg,#00d4ff,#7ddfff);
 .schema{
 width:92%;
 background:linear-gradient(90deg,#00d4ff,#00ffcc);
-}
-
-.nav-links a.active{
-color:#00d4ff;
-text-shadow:
-0 0 10px #00d4ff,
-0 0 20px rgba(0,212,255,.5);
 }

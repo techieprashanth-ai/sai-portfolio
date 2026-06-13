@@ -110,10 +110,10 @@ margin-bottom:20px;
 }
 
 .hero h1{
-font-size:clamp(3rem,8vw,5.5rem);
-line-height:1;
-margin-bottom:25px;
-color:#7ee4ff;
+font-size:clamp(2.5rem,7vw,4.5rem);
+line-height:1.05;
+max-width:700px;
+margin:auto;
 }
 
 .subtitle{

@@ -587,3 +587,23 @@ margin-bottom:25px;
 .about-card p:last-child{
 margin-bottom:0;
 }
+
+/* SCROLL PROGRESS BAR */
+
+#progress-bar{
+position:fixed;
+top:0;
+left:0;
+width:0%;
+height:4px;
+background:linear-gradient(
+90deg,
+#00d4ff,
+#00ffff
+);
+z-index:99999;
+box-shadow:
+0 0 15px #00d4ff,
+0 0 30px #00d4ff;
+transition:width .1s linear;
+}

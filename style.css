@@ -401,3 +401,40 @@ background:linear-gradient(90deg,#00d4ff,#7ddfff);
 width:92%;
 background:linear-gradient(90deg,#00d4ff,#00ffcc);
 }
+
+/* CONTACT GRID */
+
+.contact-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.contact-card{
+background:rgba(255,255,255,.04);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:25px;
+padding:35px;
+text-align:center;
+transition:.4s;
+}
+
+.contact-card:hover{
+transform:translateY(-10px);
+box-shadow:
+0 0 25px rgba(0,212,255,.25),
+0 0 50px rgba(0,212,255,.12);
+}
+
+.contact-card h3{
+color:#00d4ff;
+margin-bottom:15px;
+font-size:1.5rem;
+}
+
+.contact-card p{
+margin-bottom:25px;
+}

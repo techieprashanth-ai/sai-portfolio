@@ -256,8 +256,14 @@ requestAnimationFrame(
 animate
 );
 
-shape.rotation.x += 0.003;
-shape.rotation.y += 0.005;
+shape.rotation.x += 0.002;
+shape.rotation.y += 0.003;
+
+shape.rotation.x +=
+(mouseY - shape.rotation.x) * 0.02;
+
+shape.rotation.y +=
+(mouseX - shape.rotation.y) * 0.02;
 
 renderer.render(
 scene,

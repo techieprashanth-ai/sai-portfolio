@@ -162,3 +162,36 @@ document.body.classList.contains(
 : "🌙";
 
 });
+
+/* PARTICLES */
+
+const particleContainer =
+document.getElementById("particles");
+
+for(let i=0;i<40;i++){
+
+const particle =
+document.createElement("div");
+
+particle.classList.add("particle");
+
+particle.style.left =
+Math.random()*100 + "%";
+
+particle.style.animationDuration =
+(10 + Math.random()*20) + "s";
+
+particle.style.animationDelay =
+Math.random()*10 + "s";
+
+particle.style.width =
+(2 + Math.random()*5) + "px";
+
+particle.style.height =
+particle.style.width;
+
+particleContainer.appendChild(
+particle
+);
+
+}

@@ -307,3 +307,31 @@ margin-top:30px;
 .hero-buttons .btn{
 margin-top:0;
 }
+
+.floating-contact{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+gap:12px;
+padding:10px;
+background:rgba(0,0,0,.4);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.1);
+border-radius:50px;
+z-index:9999;
+}
+
+.floating-contact a{
+text-decoration:none;
+color:white;
+padding:10px 20px;
+border-radius:30px;
+transition:.3s;
+}
+
+.floating-contact a:hover{
+background:#00d4ff;
+color:black;
+}

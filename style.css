@@ -376,3 +376,11 @@ text-shadow:
 0 0 10px #00d4ff,
 0 0 20px #00d4ff;
 }
+
+.hero-role{
+color:#00d4ff;
+font-size:1rem;
+margin-top:10px;
+margin-bottom:20px;
+letter-spacing:1px;
+}

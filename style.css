@@ -607,3 +607,35 @@ box-shadow:
 0 0 30px #00d4ff;
 transition:width .1s linear;
 }
+
+/* THEME TOGGLE */
+
+#theme-toggle{
+background:none;
+border:none;
+color:white;
+font-size:1.2rem;
+cursor:pointer;
+}
+
+body.light-theme{
+background:#f5f8ff;
+color:#111;
+}
+
+body.light-theme .card,
+body.light-theme .contact-card,
+body.light-theme .timeline-item,
+body.light-theme .hero-stat{
+background:white;
+color:#111;
+border:1px solid rgba(0,0,0,.08);
+}
+
+body.light-theme nav{
+background:rgba(255,255,255,.8);
+}
+
+body.light-theme .nav-links a{
+color:#111;
+}
